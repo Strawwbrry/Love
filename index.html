@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Song ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="page">
+    <div class="music-card">
+
+      <!-- Couple photo -->
+      <div class="photo-wrap">
+        <img src="couple1.jpg" alt="A photo of us" class="couple-photo">
+
+        <div class="photo-overlay">
+          <span>♡</span>
+        </div>
+      </div>
+
+      <!-- Song information -->
+      <section class="song-info">
+        <p class="small-label">OUR SONG</p>
+        <h1 id="songTitle">Safe Place</h1>
+        <p id="artistName">Coldplay</p>
+      </section>
+
+      <!-- Progress -->
+      <div class="progress-area">
+        <input id="progress" type="range" min="0" max="100" value="0" aria-label="Song progress">
+        <div class="time-row">
+          <span id="currentTime">0:00</span>
+          <span id="duration">0:00</span>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <div class="controls">
+        <button class="control-btn" id="backBtn" aria-label="Restart song">↶</button>
+        <button class="play-btn" id="playBtn" aria-label="Play song">▶</button>
+        <button class="control-btn" id="nextBtn" aria-label="Restart song">↷</button>
+      </div>
+
+      <!-- Volume -->
+      <div class="volume-row">
+        <span>⌁</span>
+        <input id="volume" type="range" min="0" max="1" step="0.01" value="0.8" aria-label="Volume">
+        <span>♬</span>
+      </div>
+
+      <!-- Main link -->
+      <button id="openSong" class="love-link">
+        <span>♡</span> Click here to play our song
+      </button>
+
+      <p class="message">A little place for one of our favorite memories.</p>
+    </div>
+  </main>
+
+  <audio id="audio" src="Safe Place  Vibe Club Official Lyrics.m4a" preload="metadata"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
