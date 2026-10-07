@@ -1,4 +1,4 @@
-COUPLE MUSIC CARD — READY TO USE
+COUPLE MUSIC CARD — READY TO USE.
 
 1. Put these four files in the same folder:
    - index.html
